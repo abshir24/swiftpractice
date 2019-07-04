@@ -453,10 +453,12 @@ func AddTwo(num:Int) -> Int{
  */
 // Write your code here:
 func sum(_ a:Int,_ b:Int) -> Int{
-    return a+b
+    
+    return a == b ? (a+b) * 3 : (a+b)
+    
 }
 
-print("Sum function \(sum(1,2))")
+print("Sum function \(sum(2,2))")
 /*:
  ### Exercise
  
@@ -464,7 +466,11 @@ print("Sum function \(sum(1,2))")
  */
 // Write your code here:
 
-func(
+func twenty(_ a:Int,_ b:Int) -> Bool{
+    return (a+b == 20 || (a == 20) || (b == 20))
+}
+
+print(" Is a dub? \(twenty(10,90))" )
 /*:
  ### Exercise
  

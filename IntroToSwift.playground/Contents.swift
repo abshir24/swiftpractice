@@ -478,6 +478,14 @@ print(" Is a dub? \(twenty(10,90))" )
  */
 // Write your code here:
 
+
+func absDiff(_ n:Int) -> Int{
+    return n>51 ? (n-51) * 2 : (51-n)
+}
+
+print("Absolute Difference:  \(absDiff(52))")
+
+
 /*:
  
  ## Example Solutions for the function exercises:
